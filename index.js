@@ -33,7 +33,6 @@ function findTheCheese (foods) {
       if(cheeseArray.includes(foods[i])) {
         return foods[i];
        } 
-      
     }
      return "no cheese!"
 }
