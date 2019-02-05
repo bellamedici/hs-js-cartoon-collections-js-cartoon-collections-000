@@ -2,7 +2,7 @@ function dwarfRollCall(names) {
      var returnString = ""
      for(var i = 0; i < names.length; i++) {
         var subString = `${i + 1}. ${names[i]} `
-        returnString += subString
+        returnString = returnString + subString
       }
   return returnString;
 }
